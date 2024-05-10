@@ -10,6 +10,8 @@ body{
 
 .logo{
     width: 50px;
+    z-index: 20;
+    cursor: pointer;
 }
 
 i{
@@ -50,4 +52,21 @@ i{
     z-index: 9;
     background-color: #0D0D0D;
     display: flex;
+}
+
+.footer a{
+    color: beige;
+}
+
+.footer a:hover{
+    color: #cac2c2;
+}
+
+/** ==========================> Media Query*/
+
+@media screen and (max-width: 670px){
+
+    .responsive{
+        margin-left: 16%;
+    }   
 }
